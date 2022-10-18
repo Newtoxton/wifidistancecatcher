@@ -25,7 +25,6 @@
                 android:id="@+id/wifi_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:text="Name :"
                 android:fontFamily="@font/ralewaymedium"
                 android:textColor="@android:color/holo_blue_dark" />

@@ -5,11 +5,11 @@
     android:layout_height = "match_parent"
     android:layout_margin = "16dp">
 
-    <TextView
+    <!--<TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/wifi_available"
-        android:layout_above="@+id/wifiList"/>
+        android:layout_above="@+id/wifiList"/>-->
     <ListView
         android:id = "@+id/wifiList"
         android:layout_width = "match_parent"
