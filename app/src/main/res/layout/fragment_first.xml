@@ -1,16 +1,14 @@
 <?xml version = "1.0" encoding = "utf-8"?>
-<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
-    xmlns:tools = "http://schemas.android.com/tools"
+<RelativeLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
     android:layout_width = "match_parent"
     android:layout_height = "match_parent"
-    android:layout_margin = "16dp"
-    android:orientation = "vertical"
-   >
+    android:layout_margin = "16dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Wifi Available"
+        android:text="@string/wifi_available"
         android:layout_above="@+id/wifiList"/>
     <ListView
         android:id = "@+id/wifiList"
@@ -24,5 +22,5 @@
         android:layout_alignParentBottom = "true"
         android:layout_gravity = "bottom"
         android:layout_margin = "15dp"
-        android:text = "Scan WiFi" />
+        android:text = "@string/scan_wifi" />
 </RelativeLayout>

@@ -1,9 +1,8 @@
 package com.newtoxton.wifidistancecatcher;
 
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;

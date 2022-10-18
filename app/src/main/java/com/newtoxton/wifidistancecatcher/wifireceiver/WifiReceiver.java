@@ -1,7 +1,5 @@
 package com.newtoxton.wifidistancecatcher.wifireceiver;
 
-import static java.security.AccessController.getContext;
-
 import android.Manifest;
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -10,8 +8,8 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
-import android.support.v4.app.ActivityCompat;
-import android.widget.ArrayAdapter;
+import androidx.core.app.ActivityCompat;
+
 import android.widget.ListView;
 
 import com.newtoxton.wifidistancecatcher.adapter.MyAdapter;
@@ -19,7 +17,6 @@ import com.newtoxton.wifidistancecatcher.model.WifiName;
 
 import java.util.ArrayList;
 import java.util.List;
-import android.app.Activity;
 
 public class WifiReceiver extends BroadcastReceiver {
     WifiManager wifiManager;
